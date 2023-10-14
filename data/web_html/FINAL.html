@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Horror Movies & TV Shows Analyzation</title>
+    <style>
+        /* Styling for the entire page */
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        /* Styling for headers */
+        h1, h2, h3, h4, h5, h6 {
+            color: red;
+        }
+
+        /* Styling for links */
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        img {
+            width: 600px; /* Set the width of all images to 300px */
+        }
+
+        #ending img {
+            width: 1000px; /* Set the width of the ending image to 1000px */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Netflix Horror Movies & TV Shows Analysis</h1>
+        <p>by Tina Yang</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#content-trends">Content Trends</a></li>
+            <li><a href="#primary-viewers">Who the primary viewers are</a></li>
+            <li><a href="#producers">Who the producers are</a></li>
+            <li><a href="#production-trends">Production of horror movies and shows over years</a></li>
+            <li><a href="#stranger-things-impact">The Impact of "Stranger Things"</a></li>
+            <li><a href="#ending">Ending</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="content-trends">
+            <h2>Content Trends</h2>
+            <p>The data reveals a clear dominance of the horror and thriller genres on IMDB, with titles like "Stranger Things," "The Walking Dead," and "It" enjoying high popularity among viewers. These shows and movies cover a range of subgenres within horror and thriller, from supernatural mysteries to post-apocalyptic scenarios. While the IMDB ratings vary, with "Stranger Things" standing out with a score of 8.7, all these titles have garnered a significant number of votes, indicating strong audience engagement. Additionally, the presence of multiple seasons for some shows and adaptations from popular source material, such as "It" from a Stephen King novel, highlights the continued success of these genres in the world of entertainment.</p>
+            <img src="/Users/TY/Desktop/data/Horror/IMDB.jpg" alt="Content Trends Image">
+        </section>
+
+        <section id="primary-viewers">
+            <h2>Who the primary viewers are</h2>
+            <p>Analyzing the "HORROR Movies & Shows Age Certification" chart reveals that the most prevalent age certifications are TV-MA and R. Based on this information, it's apparent that the primary viewers of these horror movies and shows are individuals who are of legal age or older.</p>
+            <img src="/Users/TY/Desktop/data/Horror/Age.jpg" alt="Primary Viewers Image">
+        </section>
+
+        <section id="producers">
+            <h2>Who the producers are</h2>
+            <p>Examining the "Total HORROR Movies and Shows by Countries" chart, it's evident that the United States stands out with the darkest color. In contrast, other countries like China, India, Britain, Norway, France, Australia, and Canada are represented by lighter shades. This pattern suggests that the primary producers of horror content are predominantly based in the United States, while these other countries contribute to a relatively smaller portion of such content.</p>
+            <img src="/Users/TY/Desktop/data/Horror/map.jpg" alt="Producers Image">
+        </section>
+
+        <section id="production-trends">
+            <h2>Production of horror movies and shows over years</h2>
+            <p>The production trends for horror movies and shows over the years are indeed remarkable. One consistent observation is that there is a higher number of horror movies being produced each year in comparison to horror shows. This observation aligns with the distribution data in "HORROR Movies & TV Shows Distribution," which indicates that the industry is predominantly composed of movies, accounting for 65.93% of the content, while shows make up 34.07%. This data reinforces the trend of higher movie production in the horror genre, which is reflected in the annual production figures.</p>
+            <p>An interesting observation is the relatively low production of both horror movies and shows from 1995 to 2015, with an average of around three new productions per year.</p>
+            <p>However, there is a significant turning point in 2015, where the production of horror movies experiences a sharp increase, reaching 10 new movies. This surge in production continues to grow, and by 2020, it reaches a substantial 41 new movies.</p>
+            <p>In the case of horror shows, there is also a growing trend, with an increase in production up to 2019, peaking at 24 new shows. After 2019, there is a decline, but an interesting resurgence occurs in 2022, with 22 new shows being produced. These patterns in production provide valuable insights into the evolving landscape of horror content over the years.</p>
+            <img src="/Users/TY/Desktop/data/Horror/time.jpg" alt="Production Trends Image">
+        </section>
+
+        <section id="stranger-things-impact">
+            <h2>The Impact of "Stranger Things"</h2>
+            <p>It's worth noting that the debut of "Stranger Things" in 2016 coincides with the significant uptick in horror show production. Can this suggest that the success and impact of the show may have played a pivotal role in inspiring or influencing the increased production of horror shows in subsequent years? I believe so!</p>
+            <img src="/Users/TY/Desktop/data/Horror/401746.jpg" alt="Stranger Things Impact Image">
+        </section>
+
+        <section id="ending">
+            <h2>Ending</h2>
+            <p
+            Certainly, here's the continuation and completion of the HTML code:
+
+            ```html
+                        <p>Having thoroughly analyzed the available data, I've made my decision for this Halloween season: I'll be watching "Stranger Things." Not only does it boast the highest IMDb rating, but it has also left a significant mark on the horror movies and shows industry. I'm excited to dive into this iconic series and experience the impact it has had on the genre.</p>
+                        <img src="/Users/TY/Desktop/data/Horror/Netflix Horror fixed 3.jpg" alt="Ending Image" style="width: 1100px;">
+                    </section>
+            
+                    <section id="source">
+                        <h3>The Source</h3>
+                        <p><strong>Row data from:</strong> JustWatch</p>
+                        <p><strong>Collector:</strong> Diego Enrique from Kaggle</p>
+                        <p><strong>Date of source:</strong> 2023 March</p>
+                        <p><strong>Site:</strong> <a href="https://www.kaggle.com/datasets/dgoenrique/netflix-movies-and-tv-shows/data" target="_blank">https://www.kaggle.com/datasets/dgoenrique/netflix-movies-and-tv-shows/data</a></p>
+                    </section>
+            
+                    <section id="data-filtering">
+                        <h3>How I Filtered the Data</h3>
+                        <p><strong>Using Python Panda to filter the type of movies and shows that contain “horror” in the file titles.csv and export to file titleshorror.csv</strong></p>
+                        <p><strong>Here's the code:</strong> <a href="/Users/TY/Desktop/data/PandaFindHorror.py" target="_blank">PandaFindHorror.py</a></p>
+                    </section>
+                </main>
+            
+                <footer>
+                    <p>&copy; 2023 Netflix Horror Movies & TV Shows Analyzation</p>
+                </footer>
+            </body>
+            </html>
+            ```
+            
+            This HTML code now includes the additional sections "The Source" and "How I Filtered the Data" with their respective content and a link to the Python code file. The color scheme remains black for the background, red for headers, and white for text. Links are also styled as white.
