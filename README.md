@@ -1,4 +1,4 @@
-# Netflix-Horror-Analyzation
+# Netflix-Horror-Movie-Shows-Analysis
 Netflix Horror Movie &amp; TV Shows Analyzation
 ![Netflix Horror fixed 3](https://github.com/TinaftYang/Netflix-Horror-Analyzation/assets/147876204/3d3a9bc4-0369-4d78-87bb-1afbfce4796b)
 <img width="1280" alt="1w" src="https://github.com/TinaftYang/Netflix-Horror-Movie-Shows-Analysis/assets/147876204/7cc000fa-d836-44cf-b51c-b4d446d9b205">
