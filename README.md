@@ -7,5 +7,5 @@ Netflix Horror Movie &amp; TV Shows Analyzation
 <img width="1280" alt="4w" src="https://github.com/TinaftYang/Netflix-Horror-Analyzation/assets/147876204/0ed0b43d-69b6-4746-8555-a492faaf8434">
 <img width="1280" alt="5w" src="https://github.com/TinaftYang/Netflix-Horror-Analyzation/assets/147876204/573b82f4-ea75-48fb-9891-97ac55c70ddc">
 <img width="1280" alt="6w" src="https://github.com/TinaftYang/Netflix-Horror-Analyzation/assets/147876204/7537fea5-ebf2-4ae5-8397-a85f1336e2bd">
-<img width="1280" alt="7w" src="https://github.com/TinaftYang/Netflix-Horror-Analyzation/assets/147876204/5aded5a2-1347-4385-981c-065e473c56d3">
+<img width="1280" alt="7w" src="https://github.com/TinaftYang/Netflix-Horror-Movie-Shows-Analysis/assets/147876204/b915e893-0a05-492a-8e71-b0db022affaf">
 
